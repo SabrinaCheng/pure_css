@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Pure CSS-Google Analytics</title>
+        <title>Pure CSS-Medical Dashboard</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -18,13 +18,13 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="dashboard">
-            <header class="flx-sp-bt">
+            <header class="header-box">
                 <div class="header-h ft-bg">
                     <h1 class="ft-gr">MED.</h1>
                 </div>
                 <div class="header-searchbar">
                     <input type="text" placeholder="Search..." class="header-bar">
-                    <button class="header-searchbar-btn" type="submit"><i class="material-icons bk-gr">search</i></button>
+                    <button class="header-searchbar-btn" type="submit"><i class="material-icons search-btn bk-gr">search</i></button>
                 </div>
                 <div class="header-time bk-white ft-md">
                     <p>10:50 AM Today 27 Feb. 2020</p>
@@ -50,34 +50,116 @@
             <div class="main-db">
                 <div class="main-db-top">
                     <div class="main-db-top-title">
-                        <h1 class="ft-bg">Health curve</h1>
-                        <p>Show by <a href="">month</a></p>
+                        <h1 class="ft-lg">Health curve</h1>
+                        <p class="ft-gr">Show by <a class="a_none" href="">month</a></p>
                     </div>
                     <div class="main-db-top-plot">
+                        <img src="images/linechart.png" alt="linechart">
                     </div>
                 </div>
                 <div class="main-db-bottom">
-                    <h1 class="ft-bg">My appointments</h1>
+                    <h1 class="ft-lg">My appointments</h1>
                     <div class="main-db-bottom-selector">
-                        <a href="">Name</a>
-                        <a href="">Specialist</a>
-                        <a href="">Date</a>
-                        <a href="">Time</a>
-                        <a href="">Status</a>
+                        <a class="a_none ft-lg" href="">Name</a>
+                        <a class="a_none txt-ct"  href="">Specialist</a>
+                        <a class="a_none"  href="">Date</a>
+                        <a class="a_none"  href="">Time</a>
+                        <a class="a_none"  href="">Status</a>
                     </div>
                     <div class="main-db-bottom-list">
-                        <img src="" alt="">
-                        <p>Mary Adams</p>
-                        <p>Dantist</p>
-                        <p>27 Feb. 2020</p>
-                        <p>11:00 AM</p>
-                        <i class="material-icons">watch_later</i>
+                        <div class="l-name">
+                            <div class="l-name-img">
+                                <img src="images/member.jpg" alt="name-photo">
+                            </div>
+                            <p>Mary Adams</p>
+                        </div>
+                        <div class="l-spe">
+                            <p>Dantist</p>
+                        </div>
+                        <div class="l-date">
+                            <p>27 Feb. 2020</p>
+                        </div>
+                        <div class="l-time">
+                            <p>11:00 AM</p>
+                        </div>
+                        <div class="l-status">
+                            <i class="material-icons color-orange">watch_later</i>
+                        </div>
                     </div>
-
+                    <div class="main-db-bottom-list">
+                        <div class="l-name">
+                            <div class="l-name-img">
+                                <img src="images/member.jpg" alt="name-photo">
+                            </div>
+                            <p>Oscar Wilson</p>
+                        </div>
+                        <div class="l-spe">
+                            <p>Therapist</p>
+                        </div>
+                        <div class="l-date">
+                            <p>15 Jan. 2020</p>
+                        </div>
+                        <div class="l-time">
+                            <p>8:00 AM</p>
+                        </div>
+                        <div class="l-status">
+                            <i class="material-icons color-gr">done</i>
+                        </div>
+                    </div>
+                    <div class="main-db-bottom-list">
+                        <div class="l-name">
+                            <div class="l-name-img">
+                                <img src="images/member.jpg" alt="name-photo">
+                            </div>
+                            <p>Den Mitchell</p>
+                        </div>
+                        <div class="l-spe">
+                            <p>Cardiologist</p>
+                        </div>
+                        <div class="l-date">
+                            <p>18 Dec. 2019</p>
+                        </div>
+                        <div class="l-time">
+                            <p>12:00 AM</p>
+                        </div>
+                        <div class="l-status">
+                            <i class="material-icons color-gr">done</i>
+                        </div>
+                    </div>
+                    <div class="main-db-bottom-list">
+                        <div class="l-name">
+                            <div class="l-name-img">
+                                <img src="images/member.jpg" alt="name-photo">
+                            </div>
+                            <p>Bella Campbell</p>
+                        </div>
+                        <div class="l-spe">
+                            <p>Psychologist</p>
+                        </div>
+                        <div class="l-date">
+                            <p>11 Nov. 2020</p>
+                        </div>
+                        <div class="l-time">
+                            <p>8:00 AM</p>
+                        </div>
+                        <div class="l-status">
+                            <i class="material-icons color-gr">done</i>
+                        </div>
+                    </div>
+                    
                     <!-- <i class="material-icons">
                         done
                         </i> -->
                 </div>
+            </div>
+            <div class="right">
+                <div class="dynamic-hb">
+                    
+                </div>
+                <div class="circle-hb"></div>
+                <div class="analyzes"></div>
+                <div class="calendar"></div>
+                <div class="payment"></div>
             </div>
             <!-- <nav class="nav-h">
                 <a class="analytics" href="">Analytics</a>
