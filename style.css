@@ -29,8 +29,20 @@ body {
     font-size: 15px;
 }
 
+.ft-gr {
+    color: #73B874;
+}
+
+.ft-white {
+    color: #ffffff;
+}
+
 .bk-white {
     background-color: #ffffff;
+}
+
+.bk-gr {
+    background-color: #73B874;
 }
 
 .color-gr {
@@ -235,11 +247,34 @@ body {
     height: 28px;
 }
 
-.dynamic-hb {
-    background-color: blue;
+.dynamics-hb {
+    display: flex;
+    width: 220px;
+    height: 90px;
+    position: absolute;
+    top: 105px;
+    left: 780px;
+    border-radius: 15px;
+    padding: 2px 20px;
+}
+
+.dynamics-right {
+    width: 90px;
+}
+
+.dynamics-right img {
+    width: 100%;
+    margin: auto;
+}
+
+/* CIRCLE */
+.circle-hb {
     width: 220px;
     height: 120px;
     position: absolute;
-    top: 100px;
+    top: 235px;
     left: 780px;
+    border-radius: 15px;
+    padding: 2px 20px;
+    
 }
