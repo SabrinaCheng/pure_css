@@ -1,0 +1,33 @@
+
+/* SIDEBAR */
+.sidebar {
+    background-color: #ffffff;
+    width: 200px;
+    height: 620px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 30px;
+    padding-top: 0px;
+}
+
+.sidebar-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #73B874;
+    height: 520px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+.sidebar-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-icon {
+    color: #ffffff;
+    background-color: #73B874;
+    padding: 3px;
+    border-radius: 50%;
+}

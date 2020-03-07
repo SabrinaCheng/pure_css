@@ -1,0 +1,12 @@
+
+
+.dashboard {
+    background-color: #FCF6F6;
+    height: 720px;
+    width: 1200px;
+    border-radius: 30px;
+}
+
+.main-three-bx {
+    display: flex;
+}

@@ -1,0 +1,178 @@
+
+.right {
+    flex: 2;
+    margin: 0 50px 50px 25px;
+    padding: 2px;
+}
+
+.right-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-top-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.dynamics {
+    display: flex;
+    width: 220px;
+    flex: 1;
+    margin: 0 25px 25px 0;
+    border-radius: 15px;
+    padding: 2px 20px;
+}
+
+.dynamics-left {
+    width: 130px;
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dynamics-right {
+    width: 90px;
+    display: flex;
+}
+
+.dynamics-right img {
+    width: 100%;
+    /* height: 30px; */
+    margin: auto;
+}
+
+/* CIRCLE */
+.circle {
+    width: 220px;
+    margin: 25px 25px 0 0;
+    border-radius: 15px;
+    padding: 2px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circle-center {
+    text-align: center;
+    position: absolute;
+}
+
+/* ANALYZES */
+.analyzes {
+    border-radius: 15px;
+    padding: 2px 20px;
+    margin: 0 0 0 25px;
+}
+
+.ana-bar {
+    list-style-type: none;
+    padding: 0px
+}
+
+.ana-bar li {
+    padding: 6px 0 6px 0;
+}
+
+/* CALENDER */
+.calendar {
+    margin: 25px 0 25px 0;
+    height: 100px;
+    padding: 0;
+}
+.calendar h1 {
+    padding-left: 20px;
+}
+
+.cal-box {
+    background-color: #fFffff;
+    width: 100%;
+    height: 75%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.cal-l-btn {
+    color: #ffffff;
+    border-top-right-radius: 100% 50%;
+    border-bottom-right-radius: 100% 50%;
+    width: 10px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cal-mid {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+}
+
+.cal-cell {
+    width: 35px;
+    background-color: yellow;
+    border-radius: 15px;
+}
+
+.cal-r-btn {
+    color: #ffffff;
+    border-top-left-radius: 100% 50%;
+    border-bottom-left-radius: 100% 50%;
+    width: 10px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.payment {
+    margin: 0 0 0 0;
+    /* height: 160px; */
+    /* width: 380px; */
+}
+
+.payment-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-left {
+    width: 200px;
+    height: 100px;
+    background-color: #E9851D;
+    border-radius: 15px;
+    padding: 15px;
+    position: relative;
+}
+
+.payment-left-md {
+
+}
+
+.payment-left-bt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-right-tp {
+    margin: 0 0 0 50px;
+    /* width: 170px; */
+    /* height: 45px; */
+    border-radius: 15px;
+    border: #73B874 2px dashed;
+    text-align: center;
+}
+
+.payment-right-bt {
+    /* width: 170px; */
+    /* height: 45px; */
+    border-radius: 15px;
+    border: #E9851D 2px dashed;
+    text-align: center;
+}

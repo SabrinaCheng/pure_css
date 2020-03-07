@@ -12,13 +12,20 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="common.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="sidebar.css">
+        <link rel="stylesheet" href="app.css">
+        <link rel="stylesheet" href="middle.css">
+        <link rel="stylesheet" href="right.css">
+
     </head>
-    <body class="background">
+    <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="dashboard">
-            <header class="header-box">
+            <header class="header">
                 <div class="header-h ft-bg">
                     <h1 class="ft-gr">MED.</h1>
                 </div>
@@ -34,248 +41,257 @@
                 </div>
                 
             </header>
-            <nav class="sidebar">
-                <div class="sidebar-top">
-                    <i class="material-icons">home</i>
-                    <i class="material-icons">person</i>
-                    <i class="material-icons">insert_drive_file</i>
-                    <i class="material-icons">star</i>
-                    <i class="material-icons">settings</i>
-                </div>
-                <div class="sidebar-bottom">
-                    <i class="material-icons email-icon">email</i>
-                </div>
-                
-            </nav>
-            <div class="main-db">
-                <div class="main-db-top">
-                    <div class="main-db-top-title">
-                        <h1 class="ft-lg">Health curve</h1>
-                        <p class="ft-gr">Show by <a class="a_none" href="">month</a></p>
+            <div class="main-three-bx">
+                <nav class="sidebar">
+                    <div class="sidebar-top">
+                        <i class="material-icons">home</i>
+                        <i class="material-icons">person</i>
+                        <i class="material-icons">insert_drive_file</i>
+                        <i class="material-icons">star</i>
+                        <i class="material-icons">settings</i>
                     </div>
-                    <div class="main-db-top-plot">
-                        <img src="images/linechart.png" alt="linechart">
-                    </div>
-                </div>
-                <div class="main-db-bottom">
-                    <h1 class="ft-lg">My appointments</h1>
-                    <div class="main-db-bottom-selector">
-                        <a class="a_none l-name ft-lg" href=""><p>Name</p></a>
-                        <a class="a_none l-spe"  href=""><p>Specialist</p></a>
-                        <a class="a_none l-date"  href=""><p>Date</p></a>
-                        <a class="a_none l-time"  href=""><p>Time</p></a>
-                        <a class="a_none l-status"  href=""><p>Status</p></a>
-                    </div>
-                    <div class="main-db-bottom-list">
-                        <div class="l-name">
-                            <div class="l-name-img">
-                                <img src="images/member.jpg" alt="name-photo">
-                            </div>
-                            <div>Mary Adams</div>
-                        </div>
-                        <div class="l-spe">
-                            <div>Dantist</div>
-                        </div>
-                        <div class="l-date">
-                            <div>27 Feb. 2020</div>
-                        </div>
-                        <div class="l-time">
-                            <div>11:00 AM</div>
-                        </div>
-                        <div class="l-status">
-                            <i class="material-icons color-orange">watch_later</i>
-                        </div>
-                    </div>
-                    <div class="main-db-bottom-list">
-                        <div class="l-name">
-                            <div class="l-name-img">
-                                <img src="images/member.jpg" alt="name-photo">
-                            </div>
-                            <div>Oscar Wilson</div>
-                        </div>
-                        <div class="l-spe">
-                            <div>Therapist</div>
-                        </div>
-                        <div class="l-date">
-                            <div>15 Jan. 2020</div>
-                        </div>
-                        <div class="l-time">
-                            <div>8:00 AM</div>
-                        </div>
-                        <div class="l-status">
-                            <i class="material-icons color-gr">done</i>
-                        </div>
-                    </div>
-                    <div class="main-db-bottom-list">
-                        <div class="l-name">
-                            <div class="l-name-img">
-                                <img src="images/member.jpg" alt="name-photo">
-                            </div>
-                            <div>Den Mitchell</div>
-                        </div>
-                        <div class="l-spe">
-                            <div>Cardiologist</div>
-                        </div>
-                        <div class="l-date">
-                            <div>18 Dec. 2019</div>
-                        </div>
-                        <div class="l-time">
-                            <div>12:00 AM</div>
-                        </div>
-                        <div class="l-status">
-                            <i class="material-icons color-gr">done</i>
-                        </div>
-                    </div>
-                    <div class="main-db-bottom-list">
-                        <div class="l-name">
-                            <div class="l-name-img">
-                                <img src="images/member.jpg" alt="name-photo">
-                            </div>
-                            <div>Bella Campbell</div>
-                        </div>
-                        <div class="l-spe">
-                            <div>Psychologist</div>
-                        </div>
-                        <div class="l-date">
-                            <div>11 Nov. 2020</div>
-                        </div>
-                        <div class="l-time">
-                            <div>8:00 AM</div>
-                        </div>
-                        <div class="l-status">
-                            <i class="material-icons color-gr">done</i>
-                        </div>
+                    <div class="sidebar-bottom">
+                        <i class="material-icons email-icon">email</i>
                     </div>
                     
-                    <!-- <i class="material-icons">
-                        done
-                        </i> -->
-                </div>
-            </div>
-            <div class="right">
-                <div class="dynamics-hb bk-gr">
-                    <div class="dynamics-left">
-                        <span class="ft-lg ft-white">Dynamics Hb</span>
-                        <span class="ft-white">97/mmhb</span>
-                        <span class="ft-white">below normal</span>
-                    </div>
-                    <div class="dynamics-right">
-                        <img src="images/dynamics.png" alt="">
-                    </div>
-                </div>
-                <div class="circle-hb bk-white">
-                    <svg width="110" height="120" viewBox="0 0 120 120">
-                        <circle cx="60" cy="60" r="49" fill="none" stroke="#e6e6e6" stroke-width="14"/>
-                        <circle cx="60" cy="60" r="49" fill="none" stroke="#E9851D" stroke-width="14" 
-                        stroke-dasharray="339.292" stroke-dashoffset="135.717" stroke-linecap="round"/>
-                    </svg>
-                    <div class="circle-hb-center">
-                        <span>97</span>
-                        <span>mmhb</span>
-                    </div>
-                </div>
-                <div class="analyzes bk-white">
-                    <h1 class="ft-lg">Analyzes</h1>
-                    <ul class="ana-bar ft-gr">
-                        <li>Hemoglobin</li>
-                        <li>Ferritin</li>
-                        <li>Insulin</li>
-                        <li>Vitamin D</li>
-                        <li>Vitamin E</li>
-                        <li>Glucose</li>
-                    </ul>
-                </div>
-                <div class="calendar">
-                    <h1 class="ft-lg">This month's treatment calendar</h1>
-                    <div class="cal-box">
-                        <div class="cal-l">
-                            <i class="material-icons cal-l-btn bk-gr">keyboard_arrow_left</i>
+                </nav>
+                <div class="middle">
+                    <div class="middle-top">
+                        <div class="middle-top-title">
+                            <h1 class="ft-lg">Health curve</h1>
+                            <p class="ft-gr">Show by <a class="a_none" href="">month</a></p>
                         </div>
-                        <div class="cal-mid"></div>
-                            <div class=cal-cell>
-                                <p class="ft-gr">Mon</p>
-                                <p>24</p>
-                                <div class="cal-marker">
-                                    <div class="cal-marker-l"></div>
-                                    <div class="cal-marker-r"></div>
-                                </div>
-                            </div>
-                            <div class=cal-cell>
-                                <p class="ft-gr">Tue</p>
-                                <p>25</p>
-                                <div class="cal-marker">
-                                    <div class="cal-marker-l"></div>
-                                    <div class="cal-marker-r"></div>
-                                </div>
-                            </div>
-                            <div class=cal-cell>
-                                <p class="ft-gr">Wed</p>
-                                <p>26</p>
-                                <div class="cal-marker">
-                                    <div class="cal-marker-l"></div>
-                                    <div class="cal-marker-r"></div>
-                                </div>
-                            </div>
-                            <div class=cal-cell>
-                                <p class="ft-gr">Thu</p>
-                                <p>27</p>
-                                <div class="cal-marker">
-                                    <div class="cal-marker-l"></div>
-                                    <div class="cal-marker-r"></div>
-                                </div>
-                            </div>
-                            <div class=cal-cell>
-                                <p class="ft-gr">Fri</p>
-                                <p>28</p>
-                                <div class="cal-marker">
-                                    <div class="cal-marker-l"></div>
-                                    <div class="cal-marker-r"></div>
-                                </div>
-                            </div>
-                            <div class=cal-cell>
-                                <p class="ft-gr">Sat</p>
-                                <p>29</p>
-                                <div class="cal-marker">
-                                    <div class="cal-marker-l"></div>
-                                    <div class="cal-marker-r"></div>
-                                </div>
-                            </div>
-                            <div class=cal-cell>
-                                <p class="ft-gr">Sun</p>
-                                <p>1</p>
-                                <div class="cal-marker">
-                                    <div class="cal-marker-l"></div>
-                                    <div class="cal-marker-r"></div>
-                                </div>
-                            </div>
-                            
-                        <div class="cal-r">
-                            <i class="material-icons cal-r-btn bk-gr">keyboard_arrow_right</i>
+                        <div class="middle-top-plot">
+                            <img src="images/linechart.png" alt="linechart">
                         </div>
                     </div>
-                </div>
-                    
-                <div class="payment">
-                    <h1 class="ft-lg">Payment</h1>
-                    <div class="payment-left ft-white">
-                        <span class="payment-left-md">●●●● ●●●● ●●●● 6389</span>
-                        <div class="payment-left-bt">
-                            <span>Emma Robinson</span>
-                            <span>01/24</span>  
+                    <div class="middle-bottom">
+                        <h1 class="ft-lg">My appointments</h1>
+                        <div class="middle-bottom-selector">
+                            <a class="a_none l-name" href=""><p>Name</p></a>
+                            <a class="a_none l-spe"  href=""><p>Specialist</p></a>
+                            <a class="a_none l-date"  href=""><p>Date</p></a>
+                            <a class="a_none l-time"  href=""><p>Time</p></a>
+                            <a class="a_none l-status"  href=""><p>Status</p></a>
+                        </div>
+                        <div class="middle-bottom-list">
+                            <div class="l-name">
+                                <div class="l-name-img">
+                                    <img src="images/member.jpg" alt="name-photo">
+                                </div>
+                                <div>Mary Adams</div>
+                            </div>
+                            <div class="l-spe">
+                                <div>Dantist</div>
+                            </div>
+                            <div class="l-date">
+                                <div>27 Feb. 2020</div>
+                            </div>
+                            <div class="l-time">
+                                <div>11:00 AM</div>
+                            </div>
+                            <div class="l-status">
+                                <i class="material-icons color-orange">watch_later</i>
+                            </div>
+                        </div>
+                        <div class="middle-bottom-list">
+                            <div class="l-name">
+                                <div class="l-name-img">
+                                    <img src="images/member.jpg" alt="name-photo">
+                                </div>
+                                <div>Oscar Wilson</div>
+                            </div>
+                            <div class="l-spe">
+                                <div>Therapist</div>
+                            </div>
+                            <div class="l-date">
+                                <div>15 Jan. 2020</div>
+                            </div>
+                            <div class="l-time">
+                                <div>8:00 AM</div>
+                            </div>
+                            <div class="l-status">
+                                <i class="material-icons color-gr">done</i>
+                            </div>
+                        </div>
+                        <div class="middle-bottom-list">
+                            <div class="l-name">
+                                <div class="l-name-img">
+                                    <img src="images/member.jpg" alt="name-photo">
+                                </div>
+                                <div>Den Mitchell</div>
+                            </div>
+                            <div class="l-spe">
+                                <div>Cardiologist</div>
+                            </div>
+                            <div class="l-date">
+                                <div>18 Dec. 2019</div>
+                            </div>
+                            <div class="l-time">
+                                <div>12:00 AM</div>
+                            </div>
+                            <div class="l-status">
+                                <i class="material-icons color-gr">done</i>
+                            </div>
+                        </div>
+                        <div class="middle-bottom-list">
+                            <div class="l-name">
+                                <div class="l-name-img">
+                                    <img src="images/member.jpg" alt="name-photo">
+                                </div>
+                                <div>Bella Campbell</div>
+                            </div>
+                            <div class="l-spe">
+                                <div>Psychologist</div>
+                            </div>
+                            <div class="l-date">
+                                <div>11 Nov. 2020</div>
+                            </div>
+                            <div class="l-time">
+                                <div>8:00 AM</div>
+                            </div>
+                            <div class="l-status">
+                                <i class="material-icons color-gr">done</i>
+                            </div>
                         </div>
                         
+                        <!-- <i class="material-icons">
+                            done
+                            </i> -->
                     </div>
-                    <div class="payment-right-tp ft-gr">
-                        <span>+</span>
-                        <span>Add card</span>
+                </div>
+                <div class="right">
+                    <div class="right-top">
+                        <div class="right-top-left">
+                            <div class="dynamics bk-gr">
+                                <div class="dynamics-left">
+                                    <div class="dynamics-txt ft-lg ft-white">Dynamics Hb</div>
+                                    <div class="dynamics-txt ft-white">97/mmhb</div>
+                                    <div class="dynamics-txt ft-white">below normal</div>
+                                </div>
+                                <div class="dynamics-right">
+                                    <img src="images/dynamics.png" alt="">
+                                </div>
+                            </div>
+                            <div class="circle bk-white">
+                                <svg class="circle-meter" width="110" height="120" viewBox="0 0 120 120">
+                                    <circle cx="60" cy="60" r="49" fill="none" stroke="#e6e6e6" stroke-width="14"/>
+                                    <circle cx="60" cy="60" r="49" fill="none" stroke="#E9851D" stroke-width="14" 
+                                    stroke-dasharray="339.292" stroke-dashoffset="135.717" stroke-linecap="round"/>
+                                </svg>
+                                <div class="circle-center">
+                                    <div>97</div>
+                                    <div>mmhb</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="analyzes bk-white">
+                            <h1 class="ft-lg">Analyzes</h1>
+                            <ul class="ana-bar ft-gr">
+                                <li>Hemoglobin</li>
+                                <li>Ferritin</li>
+                                <li>Insulin</li>
+                                <li>Vitamin D</li>
+                                <li>Vitamin E</li>
+                                <li>Glucose</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="payment-right-bt ft-orange">
-                        <span>x</span>
-                        <span>Delete card</span>
+                    <div class="calendar">
+                        <h1 class="ft-lg">This month's treatment calendar</h1>
+                        <div class="cal-box">
+                            <div class="cal-l">
+                                <i class="material-icons cal-l-btn bk-gr">keyboard_arrow_left</i>
+                            </div>
+                            <div class="cal-mid">
+                                <div class=cal-cell>
+                                    <p class="ft-gr">Mon</p>
+                                    <p>24</p>
+                                    <div class="cal-marker">
+                                        <div class="cal-marker-l"></div>
+                                        <div class="cal-marker-r"></div>
+                                    </div>
+                                </div>
+                                <div class=cal-cell>
+                                    <p class="ft-gr">Tue</p>
+                                    <p>25</p>
+                                    <div class="cal-marker">
+                                        <div class="cal-marker-l"></div>
+                                        <div class="cal-marker-r"></div>
+                                    </div>
+                                </div>
+                                <div class=cal-cell>
+                                    <p class="ft-gr">Wed</p>
+                                    <p>26</p>
+                                    <div class="cal-marker">
+                                        <div class="cal-marker-l"></div>
+                                        <div class="cal-marker-r"></div>
+                                    </div>
+                                </div>
+                                <div class=cal-cell>
+                                    <p class="ft-gr">Thu</p>
+                                    <p>27</p>
+                                    <div class="cal-marker">
+                                        <div class="cal-marker-l"></div>
+                                        <div class="cal-marker-r"></div>
+                                    </div>
+                                </div>
+                                <div class=cal-cell>
+                                    <p class="ft-gr">Fri</p>
+                                    <p>28</p>
+                                    <div class="cal-marker">
+                                        <div class="cal-marker-l"></div>
+                                        <div class="cal-marker-r"></div>
+                                    </div>
+                                </div>
+                                <div class=cal-cell>
+                                    <p class="ft-gr">Sat</p>
+                                    <p>29</p>
+                                    <div class="cal-marker">
+                                        <div class="cal-marker-l"></div>
+                                        <div class="cal-marker-r"></div>
+                                    </div>
+                                </div>
+                                <div class=cal-cell>
+                                    <p class="ft-gr">Sun</p>
+                                    <p>1</p>
+                                    <div class="cal-marker">
+                                        <div class="cal-marker-l"></div>
+                                        <div class="cal-marker-r"></div>
+                                    </div>    
+                                </div>
+                            </div>    
+                            <div class="cal-r">
+                                <i class="material-icons cal-r-btn bk-gr">keyboard_arrow_right</i>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="payment">
+                        <h1 class="ft-lg">Payment</h1>
+                        <div class="payment-box">
+                            <div class="payment-left ft-white">
+                                <div class="payment-left-md">●●●● ●●●● ●●●● 6389</div>
+                                <div class="payment-left-bt">
+                                    <div>Emma Robinson</div>
+                                    <div>01/24</div>  
+                                </div>
+                                
+                            </div>
+                            <div>
+                                <div class="payment-right-tp ft-gr">
+                                    <div>+</div>
+                                    <div>Add card</div>
+                                </div>
+                                <div class="payment-right-bt ft-orange">
+                                    <div>x</div>
+                                    <div>Delete card</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
         
         

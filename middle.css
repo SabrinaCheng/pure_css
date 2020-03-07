@@ -1,0 +1,84 @@
+
+/* MAINBOARD */
+.middle {
+    flex: 3;
+    margin: 0 25px 50px 50px;
+    padding: 2px;
+}
+
+.middle-top {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.middle-top-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-top-plot img { 
+    width: 560px;
+    height: 180px;
+}
+
+.middle-bottom {
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.middle-bottom-selector {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.middle-bottom-list {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin: 10px 0;
+    align-items: center;
+    height: 45px;
+}
+
+.l-name {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.l-spe {
+    flex: 1;
+    display: block;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.l-date{
+    flex: 1;
+    padding: 0 10px;
+}
+
+.l-time {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.l-status {
+    flex: 0.5;
+    padding: 0 10px;
+}
+
+.l-name-img {
+    margin: auto 10px;
+}
+
+.l-name-img img{
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+}
